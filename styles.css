@@ -1,0 +1,165 @@
+body{
+    padding: 100px;
+    padding-top: 0%;
+}
+
+th, td {
+    padding: 25px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th{
+    border-bottom: 2px solid black;
+
+
+}
+  table{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+
+  }
+  .list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+  }
+
+  button{
+
+    padding: 15px 32px;
+    font-size: 16px;
+    display: flex;
+    border-radius: 5px;
+  }
+
+  .button1{
+
+    background-color: #4CAF50; 
+    color: white;
+    border-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    border-radius: 5px;
+  }
+
+  
+
+  .button2{
+
+    border-color: blue;
+    color: blue;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+
+  }
+
+  .button22{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: end;
+  }
+
+  .todo{
+    border-color: rgb(86, 84, 84);
+    background-color: white;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+
+  }
+
+  .progress{
+    border-color: orange;
+    background-color: white;
+    color: orange;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+
+  }
+
+  .complete{
+    border-color: green;
+    background-color: white;
+    color: green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .edit{
+    border-color: blue;
+    background-color: white;
+    color: blue;
+  }
+
+  .del{
+    border-color: grey;
+    background-color: white;
+    color: grey;
+  }
+
+button:hover{
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: white;
+    border-color: green;
+    color: green;
+}
+.button2:hover{
+    background-color: blue;
+    border-color: none;
+    color: white;
+ }
+ .todo:hover{
+    background-color: grey;
+    border-color: none;
+    color: white;
+ }
+ .progress:hover{
+    background-color: orange;
+    border-color: none;
+    color: white;
+ }
+
+
+.edit:hover{ 
+    background-color: blue;
+    border-color: none;
+    color: white;
+ }
+
+
+ .del:hover{
+    background-color: grey;
+    border-color: none;
+    color: white;
+ }
+
